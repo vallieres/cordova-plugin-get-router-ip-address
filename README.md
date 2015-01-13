@@ -21,9 +21,8 @@ Add node to config.xml:
 
 Example
 -------
-There is a <a href="example/">simple DAAP browsing example</a> available,
-it should list shared iTunes DAAP services and by tapping item, resolve the
-actual IP address.
+There is a <a href="demo-cordova/">simple example</a> available,
+it should simple output the router IP address in the console and in the Device Ready flashing green message in the Simulator/Device.
 
 
 Legal
