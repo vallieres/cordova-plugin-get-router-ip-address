@@ -85,7 +85,7 @@ struct rt_msghdr2 {
 - (NSString*) getGateway;
 - (NSString*) getAddrStringByIndex: (int)rtax_index;
 
-+ (NSString*) getRouterIpAddressSolution;
++ (NSString*) getRouterIpAddress;
 
 - (void) setAddr:(struct sockaddr*)sa index:(int)rtax_index;
 @end
