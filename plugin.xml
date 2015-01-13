@@ -32,6 +32,8 @@
 
         <header-file src="src/ios/CDVGetRouterIPAddress.h" />
         <source-file src="src/ios/CDVGetRouterIPAddress.m" />
+        <header-file src="src/ios/RouterAndRoutes.h" />
+        <source-file src="src/ios/RouterAndRoutes.m" />
     </platform>
 
     <!--platform name="android">
