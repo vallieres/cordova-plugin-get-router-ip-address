@@ -1,7 +1,7 @@
 var getrouteripaddress = function() {
 };
 
-getrouteripaddress.getIPAddress = function(success, fail) {
+getrouteripaddress.getRouterIPAddress = function(success, fail) {
     cordova.exec(success, fail, "getrouteripaddress", "getRouterIPAddress", []);
 };
 
