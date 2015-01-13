@@ -1,0 +1,26 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"getrouteripaddress\"><param name=\"ios-package\" onload=\"true\" value=\"CDVGetRouterIPAddress\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.vallieres.plugin.getrouteripaddress": {
+            "PACKAGE_NAME": "com.vallieres.plugin.getrouteripaddress.demo"
+        }
+    },
+    "dependent_plugins": {}
+}
