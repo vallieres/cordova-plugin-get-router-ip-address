@@ -1,5 +1,5 @@
 # cordova-plugin-get-router-ip-address
-Cordova (PhoneGap) plugin to fetch the router's IP address. Presently only for iOS, Android to follow.
+Cordova (PhoneGap) plugin to fetch the router's IP address. Presently only for iOS and Android.
 
 Instructions
 ------------

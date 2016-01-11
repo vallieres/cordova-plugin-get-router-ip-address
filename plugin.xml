@@ -36,7 +36,7 @@
         <source-file src="src/ios/RouterAndRoutes.m" />
     </platform>
 
-    <!--platform name="android">
+    <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="getrouteripaddress">
                 <param name="android-package" value="com.vallieres.plugin.getrouteripaddress.getrouteripaddress"/>
@@ -48,6 +48,6 @@
         </config-file>
 
         <source-file src="src/android/networkinterface.java" target-dir="src/com/vallieres/plugin/getrouteripaddress" />
-    </platform-->
+    </platform>
 
 </plugin>
