@@ -47,7 +47,7 @@
             <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
         </config-file>
 
-        <source-file src="src/android/networkinterface.java" target-dir="src/com/vallieres/plugin/getrouteripaddress" />
+        <source-file src="src/android/GetRouterIPAddress.java" target-dir="src/com/vallieres/plugin/getrouteripaddress" />
     </platform>
 
 </plugin>
