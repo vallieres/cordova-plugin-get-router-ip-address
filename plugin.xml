@@ -25,7 +25,7 @@
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="getrouteripaddress">
+            <feature name="GetRouterIPAddress">
                 <param name="ios-package" value="CDVGetRouterIPAddress" onload="true" />
             </feature>
         </config-file>
@@ -36,10 +36,10 @@
         <source-file src="src/ios/RouterAndRoutes.m" />
     </platform>
 
-    <!--platform name="android">
+    <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="getrouteripaddress">
-                <param name="android-package" value="com.vallieres.plugin.getrouteripaddress.getrouteripaddress"/>
+            <feature name="GetRouterIPAddress">
+                <param name="android-package" value="com.vallieres.plugin.getrouteripaddress.GetRouterIPAddress"/>
             </feature>
         </config-file>
 
@@ -47,7 +47,7 @@
             <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
         </config-file>
 
-        <source-file src="src/android/networkinterface.java" target-dir="src/com/vallieres/plugin/getrouteripaddress" />
-    </platform-->
+        <source-file src="src/android/GetRouterIPAddress.java" target-dir="src/com/vallieres/plugin/getrouteripaddress" />
+    </platform>
 
 </plugin>
