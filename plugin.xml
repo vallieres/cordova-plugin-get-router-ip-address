@@ -25,7 +25,7 @@
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="getrouteripaddress">
+            <feature name="GetRouterIPAddress">
                 <param name="ios-package" value="CDVGetRouterIPAddress" onload="true" />
             </feature>
         </config-file>
