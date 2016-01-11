@@ -15,22 +15,17 @@ import android.content.IntentFilter;
 import android.provider.Settings;
 
 public class GetRouterIPAddress extends CordovaPlugin {
-	public static final String GET_IP_ADDRESS = "getRouterIPAddress";
 
 	@Override
 	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 		try {
-			if (GET_IP_ADDRESS.equals(action)) {
-				String ip = getRouterIPAddress();
-				if (ip.equals("0.0.0.0")) {
-					callbackContext.error("No valid IP address");
-					return false;
-				}
-				callbackContext.success(ip);
-				return true;
+			String ip = getRouterIPAddress();
+			if (ip.equals("0.0.0.0")) {
+				callbackContext.error("No valid IP address");
+				return false;
 			}
-			callbackContext.error("Error no such method '" + action + "'");
-			return false;
+			callbackContext.success(ip);
+			return true;
 		} catch(Exception e) {
 			callbackContext.error("Error while retrieving the IP address. " + e.getMessage());
 			return false;

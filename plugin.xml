@@ -38,8 +38,8 @@
 
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="getrouteripaddress">
-                <param name="android-package" value="com.vallieres.plugin.getrouteripaddress.getrouteripaddress"/>
+            <feature name="GetRouterIPAddress">
+                <param name="android-package" value="com.vallieres.plugin.getrouteripaddress.GetRouterIPAddress"/>
             </feature>
         </config-file>
 
