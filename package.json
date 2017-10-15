@@ -1,0 +1,19 @@
+{
+  "name": "cordova-plugin-get-router-ip-address",
+  "version": "1.0.0",
+  "description": "Cordova (PhoneGap) plugin to fetch the router's IP address. Presently only for iOS and Android.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/violetatrium/cordova-plugin-get-router-ip-address.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/violetatrium/cordova-plugin-get-router-ip-address/issues"
+  },
+  "homepage": "https://github.com/violetatrium/cordova-plugin-get-router-ip-address#readme"
+}
