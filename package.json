@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-get-router-ip-address",
+  "version": "v1.0.0",
+  "description": "Cordova Get Router Ip Address Plugin",
+  "cordova": {
+    "id": "cordova-plugin-get-router-ip-address",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vallieres/cordova-plugin-get-router-ip-address"
+  },
+  "keywords": [
+    "cordova",
+    "cordova-plugin-get-router-ip-address",
+    "get-router-ip-address"
+  ],
+  "scripts": {
+  },
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0",
+  "engines": {
+  },
+  "devDependencies": {
+  }
+}
